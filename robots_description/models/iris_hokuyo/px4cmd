@@ -61,6 +61,8 @@ param set RC_MAP_PITCH 3
 param set RC_MAP_ROLL 4
 param set RC_MAP_THROTTLE 1
 param set RC_MAP_YAW 2
+param set MC_YAWRATE_MAX 10
+param set MC_YAWRAUTO_MAX 10
 replay tryapplyparams
 simulator start -s -u _SIMPORT_
 rgbledsim start
